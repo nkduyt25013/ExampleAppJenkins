@@ -5,7 +5,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_HUB_REPO = 'nkduyt25013/my-node-app'
+        DOCKER_HUB_REPO = 'nkduyt25013/test_push'
     }
     stages {
         stage ('checkout') {
