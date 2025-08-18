@@ -3,7 +3,7 @@ pipeline {
     tools {
         nodejs 'nodejs'
     }
-    stage {
+    stages {
         stage ('checkout') {
             steps {
                 checkout scm
